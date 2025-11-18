@@ -1,5 +1,5 @@
 {
-  "name": "@cloudos/sdk",
+  "name": "cloudos-sdk",
   "version": "1.0.0",
   "description": "Official CloudOS JavaScript/TypeScript SDK",
   "main": "dist/index.js",
