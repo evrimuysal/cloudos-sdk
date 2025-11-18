@@ -17,7 +17,7 @@ class CloudOS {
     constructor(config) {
         this.token = null;
         this.client = axios_1.default.create({
-            baseURL: config.apiUrl || 'https://api.cloudos.io',
+            baseURL: config.apiUrl || 'https://api.cloud-os.app',
             headers: {
                 'Content-Type': 'application/json',
                 ...(config.apiKey && { 'X-API-Key': config.apiKey }),
