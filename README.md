@@ -19,7 +19,7 @@ import { CloudOS } from '@cloudos/sdk';
 
 // Initialize SDK
 const cloudos = new CloudOS({
-  apiUrl: 'https://api.cloudos.io',
+  apiUrl: 'https://api.cloud-os.app',
   token: 'your-api-token', // Optional
 });
 
