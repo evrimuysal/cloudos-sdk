@@ -1,6 +1,6 @@
 {
   "name": "cloudos-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Official CloudOS JavaScript/TypeScript SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -40,4 +40,3 @@
   },
   "homepage": "https://github.com/evrimuysal/cloudos-sdk#readme"
 }
-
