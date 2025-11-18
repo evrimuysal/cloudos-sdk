@@ -1,21 +1,21 @@
-# @cloudos/sdk
+# cloudos-sdk
 
 Official JavaScript/TypeScript SDK for CloudOS Platform.
 
 ## Installation
 
 ```bash
-npm install @cloudos/sdk
+npm install cloudos-sdk
 # or
-yarn add @cloudos/sdk
+yarn add cloudos-sdk
 # or
-pnpm add @cloudos/sdk
+pnpm add cloudos-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { CloudOS } from '@cloudos/sdk';
+import { CloudOS } from 'cloudos-sdk';
 
 // Initialize SDK
 const cloudos = new CloudOS({
@@ -201,7 +201,7 @@ await cloudos.webhooks.test('workspace-id', 'webhook-id');
 ## Error Handling
 
 ```typescript
-import { CloudOSError, AuthenticationError, NotFoundError } from '@cloudos/sdk';
+import { CloudOSError, AuthenticationError, NotFoundError } from 'cloudos-sdk';
 
 try {
   await cloudos.auth.login({ email, password });
@@ -221,7 +221,7 @@ try {
 The SDK is written in TypeScript and includes type definitions out of the box.
 
 ```typescript
-import type { User, Workspace, App } from '@cloudos/sdk';
+import type { User, Workspace, App } from 'cloudos-sdk';
 
 const user: User = await cloudos.auth.getCurrentUser();
 const workspace: Workspace = await cloudos.workspaces.get('id');
